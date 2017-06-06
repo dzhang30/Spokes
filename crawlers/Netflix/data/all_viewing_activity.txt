@@ -1,0 +1,520 @@
+{
+    "ltaganyi": {
+        "60036241": {
+            "Title": "Catwoman",
+            "Year": 2004,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80098100": {
+            "Title": "Sausage Party",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70097582": {
+            "Title": "Tropic Thunder",
+            "Year": 2008,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70124999": {
+            "Title": "Naruto Shippuden: The Movie",
+            "Year": 2007,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80115466": {
+            "Title": "BLAME!",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80114549": {
+            "Title": "Funny or Die Presents: Donald Trump's The Art of the Deal: The Movie",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80161109": {
+            "Title": "Louis C.K. 2017",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80179249": {
+            "Title": "13 Reasons Why: Beyond the Reasons",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80106743": {
+            "Title": "Kevin Hart: What Now?",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80059410": {
+            "Title": "Hannibal Buress: Comedy Camisado",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80133549": {
+            "Title": "Bill Burr: Walk Your Way Out",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 2
+        },
+        "80046726": {
+            "Title": "Steve Jobs: The Man in the Machine",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80117443": {
+            "Title": "Joe Rogan: Triggered",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80115857": {
+            "Title": "The Discovery",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80004478": {
+            "Title": "Bill Burr: I'm Sorry You Feel That Way",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80117824": {
+            "Title": "Train to Busan",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70058023": {
+            "Title": "Superbad",
+            "Year": 2007,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80149259": {
+            "Title": "Gantz:O",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80084660": {
+            "Title": "The Jungle Book",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70228101": {
+            "Title": "Magic Mike",
+            "Year": 2012,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80114111": {
+            "Title": "Louis C.K.: Live at the Comedy Store",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80101827": {
+            "Title": "The White Helmets",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70129452": {
+            "Title": "Louis C.K.: Hilarious",
+            "Year": 2010,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80150002": {
+            "Title": "Amy Schumer: The Leather Special",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70266228": {
+            "Title": "Louis C.K.: Live at the Beacon Theater",
+            "Year": 2011,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "1054558": {
+            "Title": "Tommy Boy",
+            "Year": 1995,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80014727": {
+            "Title": "Last Knights",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70059998": {
+            "Title": "Resident Evil: Extinction",
+            "Year": 2007,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60000540": {
+            "Title": "Braveheart",
+            "Year": 1995,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80101493": {
+            "Title": "Ali Wong: Baby Cobra",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80045789": {
+            "Title": "Mysteries of the Unseen World",
+            "Year": 2013,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80049171": {
+            "Title": "Frozen Planet: The Epic Journey",
+            "Year": 2011,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80075567": {
+            "Title": "A Christmas Horror Story",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80130567": {
+            "Title": "Killswitch",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70042678": {
+            "Title": "Underworld: Evolution",
+            "Year": 2006,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80098200": {
+            "Title": "Spectral",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80075220": {
+            "Title": "Paul Mooney: A Piece of My Mind",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80142016": {
+            "Title": "Food Choices",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80002621": {
+            "Title": "Jim Jefferies : BARE",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80115464": {
+            "Title": "Russell Peters: Almost Famous",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70260122": {
+            "Title": "We Are Legion: The Story of the Hacktivists",
+            "Year": 2012,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70245034": {
+            "Title": "Bill Burr: You People Are All the Same",
+            "Year": 2012,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70290568": {
+            "Title": "Aziz Ansari: Buried Alive",
+            "Year": 2013,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70307655": {
+            "Title": "The Fluffy Movie",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70295560": {
+            "Title": "Bo Burnham: what.",
+            "Year": 2013,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70108425": {
+            "Title": "Louis C.K.: Chewed Up",
+            "Year": 2008,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80106308": {
+            "Title": "Fittest on Earth 2015",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70243455": {
+            "Title": "Jack Reacher",
+            "Year": 2012,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70307663": {
+            "Title": "The Giver",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70276336": {
+            "Title": "Sirius",
+            "Year": 2013,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70167106": {
+            "Title": "Hot Coffee",
+            "Year": 2011,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70289294": {
+            "Title": "Money for Nothing: Inside the Federal Reserve",
+            "Year": 2013,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80058247": {
+            "Title": "Prescription Thugs",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70177632": {
+            "Title": "Something Ventured",
+            "Year": 2011,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80033772": {
+            "Title": "Cowspiracy: The Sustainability Secret",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80038162": {
+            "Title": "Hot Girls Wanted",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80095881": {
+            "Title": "The Secret Rules of Modern Living: Algorithms",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70304333": {
+            "Title": "Son of Batman",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60022048": {
+            "Title": "Amelie",
+            "Year": 2001,
+            "Type": "movie",
+            "User Rating": 0
+        }
+    },
+    "Bitchtitties": {
+        "70097582": {
+            "Title": "Tropic Thunder",
+            "Year": 2008,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70043239": {
+            "Title": "Hoodwinked",
+            "Year": 2005,
+            "Type": "movie",
+            "User Rating": 0
+        }
+    },
+    "Nomadic": {
+        "80106743": {
+            "Title": "Kevin Hart: What Now?",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80164212": {
+            "Title": "Small Crimes",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70047095": {
+            "Title": "The Prestige",
+            "Year": 2006,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80118916": {
+            "Title": "Sand Castle",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80088567": {
+            "Title": "Captain America: Civil War",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80161109": {
+            "Title": "Louis C.K. 2017",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80117484": {
+            "Title": "Lucas Brothers: On Drugs",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80179249": {
+            "Title": "13 Reasons Why: Beyond the Reasons",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80117824": {
+            "Title": "Train to Busan",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80084660": {
+            "Title": "The Jungle Book",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80098100": {
+            "Title": "Sausage Party",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60000929": {
+            "Title": "Gladiator",
+            "Year": 2000,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60000540": {
+            "Title": "Braveheart",
+            "Year": 1995,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70302349": {
+            "Title": "Boys Of Abu Ghraib",
+            "Year": 2014,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60026139": {
+            "Title": "Tears of the Sun",
+            "Year": 2003,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70122717": {
+            "Title": "Pretty Ugly People",
+            "Year": 2009,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70108425": {
+            "Title": "Louis C.K.: Chewed Up",
+            "Year": 2008,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70266228": {
+            "Title": "Louis C.K.: Live at the Beacon Theater",
+            "Year": 2011,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80097349": {
+            "Title": "The Fundamentals of Caring",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70290568": {
+            "Title": "Aziz Ansari: Buried Alive",
+            "Year": 2013,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "70230640": {
+            "Title": "Django Unchained",
+            "Year": 2012,
+            "Type": "movie",
+            "User Rating": 0
+        }
+    },
+    "Kids": {
+        "80094319": {
+            "Title": "Finding Dory",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80079258": {
+            "Title": "Zootopia",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80095314": {
+            "Title": "The Secret Life of Pets",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        }
+    }
+}
