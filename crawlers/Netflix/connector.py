@@ -124,4 +124,3 @@ if __name__ == "__main__":
     collection_id = create_list(name, description, key)
     list_items = storer.read_from_file('Nomadic_viewing_activity.txt')
     process_list(list_items=list_items, collection_id=collection_id)
-

@@ -1,14 +1,116 @@
 {
     "ltaganyi": {
-        "60036241": {
-            "Title": "Catwoman",
-            "Year": 2004,
+        "70038796": {
+            "Title": "Lord of War",
+            "Year": 2005,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80088567": {
+            "Title": "Captain America: Civil War",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60027695": {
+            "Title": "The Matrix Reloaded",
+            "Year": 2003,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80103392": {
+            "Title": "Kickboxer: Vengeance",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80108239": {
+            "Title": "Rogue One: A Star Wars Story",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80076698": {
+            "Title": "Ip Man 3",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "773843": {
+            "Title": "Mortal Kombat",
+            "Year": 1995,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80174177": {
+            "Title": "What the Health",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80039717": {
+            "Title": "Crouching Tiger, Hidden Dragon: Sword of Destiny",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80103734": {
+            "Title": "Shimmer Lake",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80108237": {
+            "Title": "Doctor Strange",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "1171512": {
+            "Title": "Spawn: The Movie",
+            "Year": 1997,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80106743": {
+            "Title": "Kevin Hart: What Now?",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60023619": {
+            "Title": "xXx",
+            "Year": 2002,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80075566": {
+            "Title": "Kung Fury",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80117484": {
+            "Title": "Lucas Brothers: On Drugs",
+            "Year": 2017,
             "Type": "movie",
             "User Rating": 0
         },
         "80098100": {
             "Title": "Sausage Party",
             "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80013282": {
+            "Title": "Ralphie May: Unruly",
+            "Year": 2015,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60036241": {
+            "Title": "Catwoman",
+            "Year": 2004,
             "Type": "movie",
             "User Rating": 0
         },
@@ -45,12 +147,6 @@
         "80179249": {
             "Title": "13 Reasons Why: Beyond the Reasons",
             "Year": 2017,
-            "Type": "movie",
-            "User Rating": 0
-        },
-        "80106743": {
-            "Title": "Kevin Hart: What Now?",
-            "Year": 2016,
             "Type": "movie",
             "User Rating": 0
         },
@@ -370,6 +466,42 @@
         }
     },
     "Nomadic": {
+        "80108238": {
+            "Title": "Moana",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "60029157": {
+            "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "Year": 2003,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80185321": {
+            "Title": "Joe Mande’s Award-Winning Comedy Special",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80108239": {
+            "Title": "Rogue One: A Star Wars Story",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80108447": {
+            "Title": "Lion",
+            "Year": 2016,
+            "Type": "movie",
+            "User Rating": 0
+        },
+        "80091936": {
+            "Title": "Okja",
+            "Year": 2017,
+            "Type": "movie",
+            "User Rating": 0
+        },
         "80106743": {
             "Title": "Kevin Hart: What Now?",
             "Year": 2016,

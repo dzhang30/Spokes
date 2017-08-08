@@ -36,27 +36,14 @@ class Storer(object):
         file_name = './data/{0}'.format(file_name)
         with open(file_name, 'r') as json_file:
             data = json.load(json_file)
-        # Storer.pretty_print_lists(data)
 
         return data
 
-    # @staticmethod
-    # def pretty_print_lists(data):
-    #     if type(data[0]) is list:
-    #         for titles in data:
-    #             for title in titles:
-    #                 print(title)
-    #             print('\n{0}\n'.format('//////////'*15))
-    #     else:
-    #         for title in data:
-    #             print(title)
-
 
 if __name__ == '__main__':
-    print("Storer")
     # Storer.write_profiles_to_file()
     # Storer.write_profiles_to_file('Nomadic')
-    # Storer.write_profiles_to_file('Bitchtitties')
+    Storer.write_profiles_to_file()
 
 
 

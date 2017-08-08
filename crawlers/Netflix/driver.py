@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-from pprint import pprint
 
 LOGIN_URL = 'https://www.netflix.com/login'
 VIEWING_ACTIVITY = 'https://www.netflix.com/viewingactivity'
@@ -13,16 +12,12 @@ class Driver(webdriver.Chrome):
         options.binary_location = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
         options.add_argument('headless')
         super(Driver, self).__init__(chrome_options=options)
-        self.user_profiles = []
         self.get(url=LOGIN_URL)
         self.log_in()
 
     def log_in(self):
-        # demo code
         usr_email = input("Email: ")
         usr_password = input("Password: ")
-        # usr_email = 'INPUT EMAIL'
-        # usr_password = 'INPUT PASSWORD'
         form_email = self.find_element_by_xpath("//input[@name='email']")
         form_password = self.find_element_by_xpath("//input[@name='password']")
 
@@ -39,7 +34,21 @@ class Driver(webdriver.Chrome):
         if self.current_url != "https://www.netflix.com/browse":
             raise Exception("Login Failed")
 
+        # list of user profile names
         self.user_profiles = [name.text for name in self.find_elements_by_class_name("profile-name")][:-1]
+
+        # auth URL
+        # html = self.page_source
+        # auth_url__start_index = html.find("authURL")
+        # self.auth_url = html[auth_url__start_index + 10:auth_url__start_index + 58]
+
+        # cookies for the session
+        cookies_list = self.get_cookies()
+        result_cookies = []
+        for cookie in cookies_list:
+            c = '{0}={1}; '.format(cookie['name'], cookie['value'])
+            result_cookies.append(c)
+        self.cookies = ''.join(result_cookies)
 
     def switch_profile(self, name):
         start = self.find_element_by_class_name("avatar")
@@ -65,9 +74,6 @@ class Driver(webdriver.Chrome):
                 break
             prev_page_height = new_page_height
 
-
 if __name__ == '__main__':
-    print('driver')
-    # d = Driver()
-    # print(d.page_source)
-
+    d = Driver()
+    d.quit()

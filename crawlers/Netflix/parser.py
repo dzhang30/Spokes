@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 from crawlers.Netflix.driver import Driver
-import re
 import requests
 import json
 from pprint import pprint
@@ -32,8 +31,7 @@ class Parser(object):
         current_profile_name = soup.find("span", "name").getText()
 
         if name != current_profile_name:
-            # the profile we are looking for is in the drop down list
-            self.driver.switch_profile(name)
+            self.driver.switch_profile(name)    # the profile we are looking for is in the drop down list
 
         self.driver.scroll_to_end(self.viewing_activity_url)
         html = self.driver.page_source
@@ -50,29 +48,24 @@ class Parser(object):
                     "Type": '',
                     "User Rating": ''
                 }
+
         self.get_movie_type_and_year(shows)
 
         return shows
 
-    @staticmethod
-    def get_movie_type_and_year(shows):
+    def get_movie_type_and_year(self, shows):
         paths = []
         for title_id in shows.keys():
             paths.append(["videos", title_id, ["title", "summary", "userRating", "releaseYear"]])
 
-        print('Find Cookie in Chrome Dev Tools -> Network Tab -> XHR -> Request Header in https://www.netflix.com/api/shakti/a86e250d/pathEvaluator?withSize=true&materialize=true&model=harris&method=call')
-        cookie = input("Cookie: ")
-        print("Find authURL in Chrome Dev Tools -> Network Tab -> XHR -> Request Payload in https://www.netflix.com/api/shakti/a86e250d/pathEvaluator?withSize=true&materialize=true&model=harris&method=call")
-        auth_url = input("authURL: ")
-
         header = {
-            'Cookie': cookie,
+            'Cookie': self.driver.cookies,
             'Content-Type': 'application/json'
         }
 
         data = {
             "paths": paths,
-            "authURL": auth_url
+            # "authURL": self.driver.auth_url
         }
 
         s = requests.post(
@@ -94,17 +87,10 @@ class Parser(object):
             else:
                 shows.__delitem__(curr_vid_id)
 
-    @staticmethod
-    def is_movie(title):
-        regex1 = re.compile(r"Season [0-9]*:")
-        regex2 = re.compile(r"Collection [0-9]*:")
-        if regex1.search(title) or regex2.search(title):
-            return False
-        return True
 
 if __name__ == "__main__":
-    print('parser')
-    # parser = Parser()
-    # r = parser.parse_all_profiles_viewing_activity()
-    # pprint(r)
-    # parser.driver.quit()
+    parser = Parser()
+    # r = parser.parse_viewing_activity_by_profile('ltaganyi')
+    r = parser.parse_all_profiles_viewing_activity()
+    pprint(r)
+    parser.driver.quit()
