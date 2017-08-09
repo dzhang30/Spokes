@@ -48,6 +48,7 @@ class Driver(webdriver.Chrome):
         for cookie in cookies_list:
             c = '{0}={1}; '.format(cookie['name'], cookie['value'])
             result_cookies.append(c)
+
         self.cookies = ''.join(result_cookies)
 
     def switch_profile(self, name):

@@ -4,8 +4,8 @@ import requests
 import json
 from pprint import pprint
 
-LOGIN_URL = 'https://www.netflix.com/login'
 VIEWING_ACTIVITY = 'https://www.netflix.com/viewingactivity'
+VIDEO_INFO_URL = 'https://www.netflix.com/api/shakti/0965f1e8/pathEvaluator?withSize=true&materialize=true&model=harris'
 
 
 class Parser(object):
@@ -31,7 +31,7 @@ class Parser(object):
         current_profile_name = soup.find("span", "name").getText()
 
         if name != current_profile_name:
-            self.driver.switch_profile(name)    # the profile we are looking for is in the drop down list
+            self.driver.switch_profile(name)  # the profile we are looking for is in the drop down list
 
         self.driver.scroll_to_end(self.viewing_activity_url)
         html = self.driver.page_source
@@ -63,22 +63,22 @@ class Parser(object):
             'Content-Type': 'application/json'
         }
 
-        data = {
+        requested_videos_data = {
             "paths": paths,
             # "authURL": self.driver.auth_url
         }
 
-        s = requests.post(
-            url='https://www.netflix.com/api/shakti/0965f1e8/pathEvaluator?withSize=true&materialize=true&model=harris',
+        videos_data = requests.post(
+            url=VIDEO_INFO_URL,
             headers=header,
-            json=data
+            json=requested_videos_data
         )
 
-        result_json = json.loads(s.text)
+        result_json = json.loads(videos_data.text)
         videos = result_json['value']['videos']
         videos.__delitem__('size')
         videos.__delitem__('$size')
-        for k,v in videos.items():
+        for k, v in videos.items():
             curr_vid_id = str(v['summary']['id'])
             if v['summary']['type'] == 'movie':
                 shows[curr_vid_id]["Type"] = v['summary']['type']
